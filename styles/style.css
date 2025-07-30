@@ -57,7 +57,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-size: 36px;
     color: var(--cor-secundaria);
     
@@ -94,7 +94,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -103,13 +103,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid var(--cor-quartenaria);
+    border: 3px solid var(--cor-quartenaria);
     width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 21.5px 50px;
     text-decoration: none;
     color: var(--cor-quartenaria);
     font-family: var(--fonte-terciaria);
@@ -142,7 +142,7 @@ body {
 
 .conteudo__curriculo__titulo {
     padding: 5% 0 0 15%;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-size: 2.25rem;
 }
 
@@ -184,24 +184,35 @@ body {
 
 @media (max-width: 1200px) {
     
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .cabecalho {
-        padding: 10% 5%;
+        flex-direction: column;
         text-wrap: nowrap;
-        scale: 0.8;
+        scale: 0.6;
+        gap: 1rem;
+        align-items: baseline;
+        padding: 0 10%;
     }
 
     .cabecalho__menu {
+        flex-direction: column;
         justify-content: center;
+        gap: 1rem;
     }
 
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 5% 20%;
-        scale: 0.9;
+        padding: 0 20%;
+        scale: 0.8;
     }
 
     .apresentacao__imagem {
-        width: 90%;
+        width: 70%;
     }
 
     .apresentacao__conteudo {
