@@ -187,7 +187,6 @@ body {
     .body {
         display: flex;
         flex-direction: column;
-        gap: 10px;
     }
 
     .cabecalho {
@@ -220,7 +219,16 @@ body {
         width: auto;
     }
 
+    .conteudo__curriculo {
+        scale: 0.8;
+        width: auto;
+        margin-left: -0.8rem;
+        margin-top: -15rem;
+
+    }
+
     .conteudo__curriculo__blocos {
         column-gap: 4.37rem;
+        flex-direction: column;
     }
 }
