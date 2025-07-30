@@ -196,7 +196,7 @@ body {
         scale: 0.6;
         gap: 1rem;
         align-items: baseline;
-        padding: 0 10%;
+        padding: 0 0;
     }
 
     .cabecalho__menu {
@@ -207,8 +207,9 @@ body {
 
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 0 20%;
+        padding: 0 0;
         scale: 0.8;
+        margin: 0 40px;
     }
 
     .apresentacao__imagem {
