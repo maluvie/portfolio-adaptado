@@ -1,5 +1,3 @@
-```
-
 # Portfólio
 
 Olá, Bem vindo ao meu projeto de portfólio.
@@ -17,5 +15,3 @@ Olá, Bem vindo ao meu projeto de portfólio.
 ### Malu Vieira
 
 ### Linkedin: https://www.linkedin.com/in/maria-luiza-vieira-a040a6141/
-
-```
